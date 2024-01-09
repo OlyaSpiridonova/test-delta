@@ -69,6 +69,14 @@ function numberFormat(value, locale = 'ru-RU', options = {}) {
     gap: 5px;
     cursor: pointer;
 
+    @media (max-width: 1200px) {
+        grid-template-columns: 400px repeat(2, 150px) 160px;
+    }
+
+    @media (max-width: 959px) {
+        grid-template-columns: 200px repeat(2, 150px) 160px;
+    }
+
     &__chart {
         display: grid;
         grid-area: chart;

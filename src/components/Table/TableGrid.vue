@@ -43,13 +43,16 @@ onMounted(async () => {
 <style lang="scss" scoped>
 .table {
     display: grid;
+    justify-items: center;
     grid-auto-flow: row;
-    font-weight: 500;
     gap: 5px;
     padding: 10px;
     border: 3px solid #dddddd;
     color: grey;
     font-weight: 500;
     font-size: 14px;
+    @media (max-width: 779px) {
+        overflow: scroll;
+    }
 }
 </style>

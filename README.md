@@ -1,6 +1,6 @@
 # test delta
 
-Демо-версия:
+Демо-версия: https://delta-test-frontend.netlify.app/
 
 ### Autor: Spiridonova Olga
 
