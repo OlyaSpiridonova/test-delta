@@ -1,0 +1,26 @@
+{
+    "name": "test-delta",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "server": "json-server -w server/db.json",
+        "start:dev": "concurrently \"npm run dev\" \"npm run server\"",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "chart.js": "^4.4.1",
+        "json-server": "^1.0.0-alpha.11",
+        "vue": "^3.3.8",
+        "vue-chartjs": "^5.3.0",
+        "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.5.0",
+        "prettier": "3.1.1",
+        "sass": "^1.69.5",
+        "vite": "^5.0.0"
+    }
+}
